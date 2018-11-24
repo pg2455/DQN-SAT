@@ -21,7 +21,7 @@ There are two text files:
 Following Python2.7 libraries are required:
 - [pytorch](https://pytorch.org/) for deep learning models
 - [visdom](https://github.com/facebookresearch/visdom) for visualising the progress
-- [logger](https://github.com/oval-group/logger) to easily interface with visdom
+- [logger](https://github.com/oval-group/logger) to easily interface with visdom. This has been included in the repo as a submodule. A `__init__.py` file needs to be in the folder for it to be used easily. 
 - [pympler](https://pythonhosted.org/Pympler/) to watch the memory usage
 
 ## Synthetic Data
